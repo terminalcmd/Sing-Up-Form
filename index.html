@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up-form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="full-page">
+        <div class="first-section">
+            <img src="Images/leaves.jpg"
+              alt="">
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="Images/logo.png" alt="">
+                </div>
+                <div class="text">Odin</div>
+            </div>
+            <div class="img-rights-container">
+                <div class="img-rights">
+                    <p>
+                        Photo by 
+                        <a href="https://unsplash.com/@haliewestphoto">
+                        Halie West</a>
+                        on 
+                        <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">
+                        Unsplash</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="second-section">
+            <div class="form-text">
+                <div class="para1">This is not real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                </div>
+                <div class="para2">You <em>know</em> you want to.</div>
+            </div>
+            <div class="form-div">
+                <h2>Let's do this</h2>
+                <form action="fsdf" method="post">
+                    <div class="full-name">
+                        <div class="first-name-container">
+                            <label for="first-name">First Name</label>
+                            <input 
+                              type="text"
+                              name="first-name"
+                              id="first-name"
+                              min="2"
+                              maxlength="50" 
+                              >
+                        </div>
+                        <div class="last-name-container">
+                            <label for="last-name">Last Name</label>
+                            <input 
+                                type="text"
+                                name="last-name" 
+                                id="last-name"
+                                min="2"
+                                maxlength="50" 
+                                >
+                        </div>
+
+                    </div>
+                    <div class="contact-details">
+                        <div class="email">
+                            <label for="user-email">Email</label>
+                            <input 
+                                type="email"
+                                name="user-email"
+                                id="user-email">
+                        </div>
+                        <div class="phone">
+                            <label for="user-phone">Phone Number</label>
+                            <input 
+                                type="tel"
+                                name="user-phone"
+                                id="user-phone"
+                                >
+                        </div>
+                    </div>
+                    <div class="password">
+                        <div class="pwd">
+                            <label for="pwd">Password</label>
+                            <input type="password"
+                             name="user-password"
+                              id="pwd" required>
+                        </div>
+                        <div class="confirm-pwd">
+                            <label for="confirm-pwd">Confirm Password</label>
+                            <input type="password"
+                             name="user-confirm-pwd"
+                              id="confirm-pwd"required >
+                        </div>
+                    </div>
+               
+            </div>
+            <div class="form-button">
+                <div class="btn">
+                    <button type="submit">Create Account</button>
+                </div>
+                <div class="log-in">
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

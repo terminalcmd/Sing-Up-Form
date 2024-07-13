@@ -1,0 +1,170 @@
+@font-face{
+    font-family:"Norse";
+    src:url("fonts/Norse-Bold.otf")
+    
+}
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+
+}
+
+.full-page{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-section{
+    width: 100%;
+    height:100%;
+    flex-shrink: 2;
+    position: relative;
+}
+
+.first-section img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.logo-container{
+    width: 100%;
+    position: absolute;
+    top:150px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background:rgb(0 0 0 /0.5)
+}
+.logo img{
+    width: 75px;
+    height: 100px;
+}
+.logo-container .text{
+    font-size:5rem;
+    color:white;
+    font-family:"Norse";
+}
+.img-rights-container{
+    width: 100%;
+    position:absolute;
+    bottom:10px;
+    display:flex;
+    justify-content:center;
+
+}
+.img-rights{
+    color:white;
+    
+}
+.img-rights a{
+    text-decoration: underline;
+    color: white;
+}
+
+.second-section{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.form-text{
+    width: 100%;
+    height:290px;
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:600;
+    background-color: rgb(250, 249, 249);
+    
+}
+.para1{
+    flex: 1;
+    margin-left: 50px;
+    font-size:1.5rem;
+    margin-top:90px;
+    max-width:70%;
+}
+.para2{
+    max-width:80%;
+    flex:1;
+    margin-top:20px;
+    font-size:1.5rem;
+    margin-left:50px;
+}
+
+.form-div{
+    width: 100%;
+    height:300px;
+}
+
+label{
+    font-size:1.2rem;
+}
+input{
+    font-size: 1.3rem;
+    display: block;
+    border-radius:5px;
+    border: 1px solid #E5E7EB;
+}
+input[type='password']:invalid{
+    outline: 1px solid red;
+}
+
+input:focus{
+    outline:1px solid blue;
+    box-shadow: 0 5px 8px lightgrey;
+}
+h2{
+    font-size:1.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-div h2{
+    margin-left:50px;
+    margin-top: 10px;
+}
+.password,.contact-details,.full-name{
+    display: flex;
+    margin-left:50px;
+    margin-top:20px;
+    gap:100px;
+
+}
+.form-button{
+    width: 100%;
+    height:200px;
+   
+    background-color: rgb(250, 249, 249)
+}
+.btn{
+    margin-left:50px;
+    margin-top:20px;
+}
+.btn button{
+    padding:10px 25px;
+    font-size: 1.2rem;
+    border:1px solid #596D48;
+    background-color:#596D48;
+    border-radius:5px;
+    color:white;
+}
+.log-in{
+    margin-top:20px;
+    margin-left:50px;
+    font-size:1.1rem;
+}
+.log-in a{
+    text-decoration: none;
+    color:#596D48;
+    font-weight:600;
+}
+
+
+
+
+
+
+
